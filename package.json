@@ -1,0 +1,29 @@
+{
+  "name": "vite-plugin-webp",
+  "version": "1.0.0",
+  "description": "WebP Plugin for Vite",
+  "author": "Arnav Dugar",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnavdugar/vite-plugin-webp"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write src/index.ts package.json tsconfig.json"
+  },
+  "keywords": [
+    "vite-plugin",
+    "webp"
+  ],
+  "dependencies": {
+    "vite": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3"
+  }
+}
